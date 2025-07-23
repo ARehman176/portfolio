@@ -5,7 +5,8 @@ import Navbar from './Component/Navbar';
 import Home from './pages/Home';
 import Aboutme from './pages/Aboutme';
 import Work from './Component/Work';
-import Talk from './Component/Talk';
+
+import Contactme from './pages/Contactme';
 import './App.css'
 const router = createBrowserRouter([
   {
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/contact',
-    element: <Talk />,
+    element: <Contactme />,
   },
 ]);
 

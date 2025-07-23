@@ -23,8 +23,15 @@ const Navbar = () => {
             About 
             </a>
             </li>
-          <li className="hover:text-blue-300 cursor-pointer font-semibold text-xl">portfolio</li>
-          <li className="hover:text-blue-300 cursor-pointer font-semibold text-xl"> Contacts</li>
+          <li className="hover:text-blue-300 cursor-pointer font-semibold text-xl">
+           
+            portfolio</li>
+          <li className="hover:text-blue-300 cursor-pointer font-semibold text-xl">
+             <a href="/contact">
+            
+        Contacts 
+            </a>
+             </li>
           <li className="hover:text-blue-300 cursor-pointer font-semibold text-xl"> Blogs</li>
         </ul> 
             </div>
