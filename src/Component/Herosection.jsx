@@ -7,8 +7,9 @@ import { Icon } from "@iconify/react";
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col-reverse md:flex-row pb-40 items-center justify-between px-6 md:px-20 py-12 -mt-17
-    bg-gradient-to-r from-gray-100 via-[#f5f6f7] to-[#e9eeff]">
+    <section className="flex flex-col-reverse md:flex-row items-center justify-between 
+  px-4 sm:px-6 md:px-12 lg:px-20 py-12 md:py-20 pb-40 
+  mt-[-4.25rem] bg-gradient-to-r from-gray-100 via-[#f5f6f7] to-[#e9eeff] space-y-8 md:space-y-0">
       {/* Left Content */}
       <div className="flex-1 ml-30">
         <p className="text-blue-600 text-lg font-medium mb-2">Hi, I’m Abdul Rehman</p>
@@ -83,7 +84,23 @@ const HeroSection = () => {
       </div>
 
       {/* Right Image */}
-      <div className="flex-1 mb-10 md:mb-0">
+      
+      <div className="flex-1 mb-10 ">
+      <div className="flex justify-center mb-5 items-center gap-8 text-gray-800 text-lg font-medium">
+        <div className="flex items-center gap-1">
+          <Icon icon="noto-v1:light-bulb" className="text-xl" />
+          <span>INSIGHT</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Icon icon="twemoji:brain" className="text-xl" />
+          <span>INNOVATION</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Icon icon="twemoji:rainbow" className="text-xl" />
+          <span>IMPACT</span>
+        </div>
+      </div>
+ 
         <img
           src={pic}
           alt="Hero"

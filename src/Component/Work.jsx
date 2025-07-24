@@ -11,7 +11,7 @@ const projects = [
     image: bmlc,
     tech: ["React", "Tailwind CSS", "Firebase"],
     live: "http://localhost:5174/",
-    github: "https://github.com/your-username/techheaven",
+    github: "https://github.com/ARehman176/bmlc",
   },
 //   {
 //     title: "Chat UI",
@@ -28,7 +28,7 @@ const projects = [
     image: logo,
     tech: ["React", "Tailwind CSS", "Framer Motion"],
     live: "http://localhost:5173/",
-    github: "https://github.com/your-username/portfolio",
+    github: "https://github.com/ARehman176/portfolio",
   },
 ];
 
