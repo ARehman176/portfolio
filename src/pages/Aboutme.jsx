@@ -1,6 +1,6 @@
 // components/AboutSection.jsx
 import React, { useEffect, useState } from 'react';
-import images from '../assets/images.png'; 
+import web from '../assets/web.svg'; 
 import Talk from '../Component/Talk'
 import { Icon } from '@iconify/react';
 import Footer from '../Component/Footer'
@@ -97,9 +97,9 @@ export default function Aboutme() {
   <div className="w-full flex   gap-12">
     
     {/* === TEXT SECTION === */}
-    <div className="flex-1 mt-10">
-      <h1 className="text-5xl font-bold text-[#2c344b] mb-6 ml-44">Who I Am</h1>
-      <p className="text-gray-700 text-xl leading-relaxed ml-44">
+    <div className="flex-1 mt-10 ">
+      <h1 className="text-5xl font-bold text-[#2c344b] mb-6 ml-30 ">Who I Am</h1>
+      <p className="text-gray-700 text-xl leading-relaxed ml-30">
         I’m <span className="font-bold text-[#2c344b]">Abdul Rehman</span>, a passionate
         <span className="font-semibold text-[#2c344b]"> Front-End Developer</span> with
         <span className="font-semibold text-[#2c344b]"> 6 months of experience</span> building responsive and user-friendly websites.
@@ -112,7 +112,7 @@ export default function Aboutme() {
 
     {/* === IMAGE SECTION === */}
     <div className=" mt-10 ">
-      <img src={images} alt="Profile illustration" className="h-84 w-auto object-contain" />
+      <img src={web} alt="Profile illustration" className="h-84 w-auto object-contain mr-25" />
     </div>
 
   </div>
